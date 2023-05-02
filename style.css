@@ -1,0 +1,128 @@
+body {
+    background: url('https://img.freepik.com/free-vector/gradient-technological-background_23-2148884155.jpg?w=900&t=st=1679746859~exp=1679747459~hmac=95a7c85236aece38a5fca87f21b9b03093a73755159007b3790740e1db67beb4');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    /* display: flex; */
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+
+}
+.header-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main-nav {
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    color: white;
+    /* display: none; */
+}
+.nav-item {
+    margin-right: 20px;
+    color: white;
+}
+.nav-link {
+    color: aquamarine;
+    font-weight: bold;
+}
+.right-cont {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+}
+.left-cont img {
+    max-width: 45px;
+    border-radius: 10px;
+}
+.intro {
+    color: antiquewhite;
+    position: relative;
+    font-size: 60px;
+    max-width: 750px;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 240px;
+    font-family: cursive;
+    /* font-weight: 100; */
+}
+
+footer {
+    /* text-align: center; */
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.social_media {
+    margin: 5px;
+    text-align: center;
+}
+
+i {
+    margin: 5px;
+    font-size: 30px;
+    color: white;    
+}
+
+.social_media :hover {
+    transform: scale(1.2);
+}
+
+#email {
+    margin: 05px;
+    text-align: center;
+}
+
+#email a {
+    font-weight: bold;
+    color: aquamarine;
+}
+
+
+
+/* Feedback CSS End */
+
+@media only screen and (max-width:600px){
+          .info {
+              display: block;
+              box-sizing: border-box;
+              /* vertical-align: top; */
+              margin: 5%;
+              width: 90%;
+              height: 250px;
+              border: solid;
+              border-radius: 10px;
+          }
+}
+
+    
+
